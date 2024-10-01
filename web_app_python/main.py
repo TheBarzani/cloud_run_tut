@@ -13,8 +13,7 @@ def hello_world():
     return f"Hello World!!!!!!"
 
 @app.route("/user", methods=['GET'])
-def hello_world():
-    """Example Hello World route."""
+def user_resource():
 
     return jsonify({"id": 123, "name": "Jack"})
     
